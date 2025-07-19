@@ -138,7 +138,7 @@
                         <ul class="list list-unstyled list-inline">
                             <li class="list-inline-item d-inline-flex align-items-center">
                                 <img width="23" height="23" src="{{ asset('/assets/img/demos/construction/icons/phone.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark'}" />
-                                <a href="tel:0123456789" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5 ms-2">(800) 123-4567</a>
+                                <a href="tel:+971549905060" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5 ms-2">+971 549905060</a>
                             </li>
                             <li class="list-inline-item d-inline-flex align-items-center ms-0">
                                 <img width="23" height="23" src="{{ asset('/assets/img/demos/construction/icons/email.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark'}" />
@@ -188,11 +188,19 @@
     <!-- Current Page Vendor and Views -->
     <script src="{{ asset('/assets/js/views/view.contact.js') }}"></script>
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <!-- Theme Custom -->
     <script src="{{ asset('/assets/js/custom.js') }}"></script>
 
     <!-- Theme Initialization Files -->
     <script src="{{ asset('/assets/js/theme.init.js') }}"></script>
+
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
 
 </body>
 

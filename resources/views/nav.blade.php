@@ -4,17 +4,17 @@
             <nav class="collapse px-3-5">
                 <ul class="nav nav-pills" id="mainNav">
                     <li>
-                        <a class="nav-link active" href="{{ route('index') }}">
+                        <a class="nav-link {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('about') }}">
+                        <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}">
                             About Us
                         </a>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('products') }}">
+                        <a class="nav-link dropdown-toggle {{ (Route::is('products') || Route::is('products.*')) ? 'active' : '' }}" href="{{ route('products') }}">
                             Products
                         </a>
                         <ul class="dropdown-menu">
@@ -39,17 +39,17 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('services') }}">
+                        <a class="nav-link {{ Route::is('services') ? 'active' : '' }}" href="{{ route('services') }}">
                             Services
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('blogs') }}">
+                        <a class="nav-link {{ Route::is('blogs') ? 'active' : '' }}" href="{{ route('blogs') }}">
                             Blogs
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="{{ route('contact') }}">
+                        <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">
                             Contact
                         </a>
                     </li>
