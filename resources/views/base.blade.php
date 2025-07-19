@@ -58,12 +58,7 @@
                     <div class="header-row">
                         <div class="header-column">
                             <div class="header-row">
-                                <div class="header-logo custom-header-logo">
-                                    <img class="logo" alt="Blue Pearl" width="123" height="48" src="img/demos/construction/logo.png">
-                                    <a href="{{ route('index') }}">
-                                        <img class="logo-sticky" alt="Blue Pearl" width="123" height="48" src="img/demos/construction/logo-dark.png">
-                                    </a>
-                                </div>
+                                <h2 class="m-0">BLUE PEARL GENERAL TRADING</h2>
                             </div>
                         </div>
                         <div class="header-column justify-content-end">
@@ -81,7 +76,7 @@
                 <div class="row pt-4 mb-5 gy-4">
                     <div class="col-lg-2 align-self-center">
                         <a href="demo-construction.html">
-                            <img alt="Blue Pearl" class="img-fluid logo" width="123" height="48" src="img/demos/construction/logo-dark.png">
+                            <img alt="Blue Pearl" class="img-fluid logo" src="{{ asset('/assets/img/demos/construction/logo-transparent.png') }}">
                         </a>
                     </div>
                     <div class="col-lg-4 offset-lg-1">

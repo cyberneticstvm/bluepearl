@@ -169,7 +169,7 @@ html #header .header-logo.custom-header-logo {
 		position: relative;
 }
 
-html #header .header-logo.custom-header-logo:before {
+/*html #header .header-logo.custom-header-logo:before {
 		content: '';
 		position: absolute;
 		bottom: -87px;
@@ -181,7 +181,7 @@ html #header .header-logo.custom-header-logo:before {
 		visibility: visible;
 		transform: rotate(45deg);
 		transition: ease opacity 300ms, ease transform 300ms;
-}
+}*/
 
 html #header .header-logo .logo {
 		transition: ease opacity 300ms, ease transform 300ms;

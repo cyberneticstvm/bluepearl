@@ -6,11 +6,11 @@
 
             <!-- Carousel Slide 1 -->
             <div class="owl-item position-relative">
-                <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="kenBurnsToRight" data-appear-animation-duration="30s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url({{ asset('/assets/img/demos/construction/slides/slide-1.jpg') }}); background-size: cover; background-position: center;"></div>
+                <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="kenBurnsToRight" data-appear-animation-duration="30s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url({{ asset('/assets/img/demos/construction/slides/bg1.svg') }}); background-size: cover; background-position: center;"></div>
                 <div class="container position-relative z-index-1 h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-lg-9 col-xl-8 position-relative mx-auto mt-5 pt-5">
-                            <h1 class="position-relative text-color-light font-weight-bold custom-big-text-style-1 text-start text-lg-end pt-4 mt-5 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500">
+                            <h1 class="position-relative text-color-dark font-weight-bold custom-big-text-style-1 text-start text-lg-end pt-4 mt-5 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500">
                                 <span class="position-absolute bottom-100 left-0 transform3dy-p50 w-100 pt-4 ms-0">
                                     <span class="d-inline-flex custom-outline-text-style-1 text-2 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1300">BUILDING</span>
                                 </span>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Carousel Slide 2 -->
-            <div class="owl-item position-relative" style="background-image: url({{ asset('/assets/img/demos/construction/slides/slide-2.jpg') }}); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative" style="background-image: url({{ asset('/assets/img/demos/construction/slides/bg2.svg') }}); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-1 h-100">
                     <div class="row align-items-center h-100 pt-5">
                         <div class="col-xl-8 position-relative ms-auto mt-5 pt-5">

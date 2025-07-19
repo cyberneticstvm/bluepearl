@@ -43,11 +43,11 @@
                             Services
                         </a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="nav-link {{ Route::is('blogs') ? 'active' : '' }}" href="{{ route('blogs') }}">
                             Blogs
                         </a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">
                             Contact
