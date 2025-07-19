@@ -10,10 +10,10 @@
 
     <p>Contact Form has been subitted with below details.</p>
 
-    <p>Name: {{ $data['name'] }}</p>
-    <p>Email: {{ $data['email'] }}</p>
-    <p>Contact Number: {{ $data['number'] }}</p>
-    <p>Message: {{ $data['message'] }}</p>
+    <p>Name: {{ $data->name }}</p>
+    <p>Email: {{ $data->email }}</p>
+    <p>Contact Number: {{ $data->number }}</p>
+    <p>Message: {{ $data->message }}</p>
 
     Regards,<br />
     Blue Pearl Web.
