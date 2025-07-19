@@ -51,7 +51,7 @@ class WebController extends Controller
         ]);
         try {
             $data = ['message' => $request->message, 'name' => $request->name, 'email' => $request->email, 'number' => $request->contact_number];
-            Mail::to($this->to)->bcc($this->bcc)->send(new ContactForm($request));
+            Mail::to($this->to)->bcc($this->bcc)->send(new ContactForm($data));
         } catch (Exception $e) {
             return redirect()->route('message')->with("error", $e->getMessage());
         }
