@@ -48,7 +48,10 @@ class WebController extends Controller
 
     function message()
     {
-        return view('message');
+        $title = "Blue Pearl General Trading";
+        $description = "";
+        $keywords = "";
+        return view('message', compact('title', 'description', 'keywords'));
     }
 
     function products()
