@@ -22,16 +22,18 @@
 </section>
 <div class="container pt-4 pb-5 pb-sm-0 my-5">
     <div class="row">
-        @if(Session::has('success'))
-        <div class="col text-success">
-            <h2>{{ Session::get('error') }}</h2>
+        @session('error')
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ $value }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-        @endif
-        @if(Session::has('error'))
-        <div class="col text-success">
-            <h2>Something went wrong! {{ Session::get('error') }}</h2>
+        @endsession
+        @session('success')
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ $value }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-        @endif
+        @endsession
     </div>
 </div>
 
