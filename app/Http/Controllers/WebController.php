@@ -41,9 +41,9 @@ class WebController extends Controller
         ]);
         try {
         } catch (Exception $e) {
-            return redirect()->back('message')->with("error", $e->getMessage());
+            return redirect()->back()->with("error", $e->getMessage());
         }
-        return redirect()->back('message')->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
+        return redirect()->back()->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
     }
 
     function message()
