@@ -50,9 +50,9 @@ class WebController extends Controller
             'message' => 'required',
         ]);
         try {
-        } catch (Exception $e) {
             $data = ['message' => $request->message, 'name' => $request->name, 'email' => $request->email, 'number' => $request->contact_number];
             Mail::to($this->to)->bcc($this->bcc)->send(new ContactForm($data));
+        } catch (Exception $e) {
             return redirect()->route('message')->with("error", $e->getMessage());
         }
         return redirect()->route('message')->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
