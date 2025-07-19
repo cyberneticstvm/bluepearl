@@ -39,7 +39,7 @@ class ContactForm extends Mailable
     {
         return new Content(
             view: 'emails.contact',
-            with: $this->data
+            with: ['data' => $this->data]
         );
     }
 
