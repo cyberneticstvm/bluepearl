@@ -54,6 +54,7 @@
             <h2 class="font-weight-bold text-color-dark text-6 mb-0">Send Us a Message</h2>
             <p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
             <form class="contact-form form-style-3" action="{{ route('contact.submit') }}" method="POST" id="contact-form">
+                @csrf
                 <div class="contact-form-success alert alert-success d-none mt-4">
                     <strong>Success!</strong> Your message has been sent to us.
                 </div>
