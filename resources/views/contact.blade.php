@@ -52,18 +52,6 @@
     <div class="row">
         <div class="col-lg-12 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1400">
             <h2 class="font-weight-bold text-color-dark text-6 mb-0">Send Us a Message</h2>
-            @session('error')
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                {{ $value }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            @endsession
-            @session('success')
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                {{ $value }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            @endsession
             <p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
             <form class="" action="{{ route('contact.submit') }}" method="POST" id="contact-form">
                 @csrf

@@ -2,11 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactForm;
 use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
+    protected $bcc, $to;
+
+    public function __construct()
+    {
+        $this->bcc = 'bluepearlgeneraltrading2025@gmail.com';
+        $this->to = 'info@bluepearlgeneraltrading.com';
+    }
+
     function index()
     {
         $title = "Blue Pearl General Trading";
@@ -41,6 +51,8 @@ class WebController extends Controller
         ]);
         try {
         } catch (Exception $e) {
+            $data = ['message' => $request->message, 'name' => $request->name, 'email' => $request->email, 'number' => $request->contact_number];
+            Mail::to($this->to)->bcc($this->bcc)->send(new ContactForm($data));
             return redirect()->route('message')->with("error", $e->getMessage());
         }
         return redirect()->route('message')->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
