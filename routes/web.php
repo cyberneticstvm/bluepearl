@@ -12,5 +12,6 @@ Route::middleware(['web'])->group(function () {
         Route::get('/blogs', 'blogs')->name('blogs');
         Route::get('/contact', 'contact')->name('contact');
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
+        Route::get('/message')->name('message');
     });
 });

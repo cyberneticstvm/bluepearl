@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Http\Request;
 
 class WebController extends Controller
@@ -38,6 +39,11 @@ class WebController extends Controller
             'contact_number' => 'required|numeric',
             'message' => 'required',
         ]);
+        try {
+        } catch (Exception $e) {
+            return redirect()->route('message')->with("error", $e->getMessage());
+        }
+        return redirect()->route('message')->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
     }
 
     function products()
