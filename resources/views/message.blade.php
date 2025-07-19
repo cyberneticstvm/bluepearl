@@ -23,15 +23,13 @@
 <div class="container pt-4 pb-5 pb-sm-0 my-5">
     <div class="row">
         @session('error')
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            {{ $value }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <div class="text-danger">
+            <h2>{{ $value }}</h2>
         </div>
         @endsession
         @session('success')
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            {{ $value }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <div class="text-success">
+            <h2>{{ $value }}</h2>
         </div>
         @endsession
     </div>
