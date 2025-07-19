@@ -46,6 +46,11 @@ class WebController extends Controller
         return redirect()->route('message')->with("success", "Thank you for contacting us! Our team will get back to you shortly!");
     }
 
+    function message()
+    {
+        return view('message');
+    }
+
     function products()
     {
         $title = "Blue Pearl General Trading";
