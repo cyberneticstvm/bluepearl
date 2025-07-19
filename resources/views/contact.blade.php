@@ -63,17 +63,8 @@
             </div>
             @endif
             <p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
-            <form class="contact-form form-style-3" action="{{ route('contact.submit') }}" method="POST" id="contact-form">
+            <form class="" action="{{ route('contact.submit') }}" method="POST" id="contact-form">
                 @csrf
-                <div class="contact-form-success alert alert-success d-none mt-4">
-                    <strong>Success!</strong> Your message has been sent to us.
-                </div>
-
-                <div class="contact-form-error alert alert-danger d-none mt-4">
-                    <strong>Error!</strong> There was an error sending your message.
-                    <span class="mail-error-message text-1 d-block"></span>
-                </div>
-
                 <div class="row">
                     <div class="form-group col mb-3-5">
                         <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control text-3 h-auto py-3-5" name="name" placeholder="Your Name" required>
