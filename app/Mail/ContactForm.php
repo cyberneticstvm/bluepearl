@@ -20,6 +20,8 @@ class ContactForm extends Mailable
     public function __construct($data)
     {
         $this->data = $data;
+        dd($this->data);
+        die;
     }
 
     /**
@@ -39,7 +41,7 @@ class ContactForm extends Mailable
     {
         return new Content(
             view: 'emails.contact',
-            with: ['name' => $this->data['name']]
+            with: ['data' => $this->data]
         );
     }
 
