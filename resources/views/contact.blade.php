@@ -53,7 +53,7 @@
         <div class="col-lg-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1400">
             <h2 class="font-weight-bold text-color-dark text-6 mb-0">Send Us a Message</h2>
             <p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
-            <form class="contact-form form-style-3" action="" method="POST" id="contact-form">
+            <form class="contact-form form-style-3" action="{{ route('contact.submit') }}" method="POST" id="contact-form">
                 <div class="contact-form-success alert alert-success d-none mt-4">
                     <strong>Success!</strong> Your message has been sent to us.
                 </div>
@@ -67,21 +67,33 @@
                     <div class="form-group col mb-3-5">
                         <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control text-3 h-auto py-3-5" name="name" placeholder="Your Name" required>
                     </div>
+                    @error('name')
+                    <small class="text-danger">{{ $errors->first('name') }}</small>
+                    @enderror
                 </div>
                 <div class="row">
                     <div class="form-group col mb-3-5">
                         <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-3-5" name="email" placeholder="Your E-mail Address" required>
                     </div>
+                    @error('email')
+                    <small class="text-danger">{{ $errors->first('email') }}</small>
+                    @enderror
                 </div>
                 <div class="row">
                     <div class="form-group col mb-3-5">
                         <input type="text" value="" data-msg-required="Please enter the contact number." maxlength="100" class="form-control text-3 h-auto py-3-5" name="contact_number" placeholder="Contact Number" required>
                     </div>
+                    @error('contact_number')
+                    <small class="text-danger">{{ $errors->first('contact_number') }}</small>
+                    @enderror
                 </div>
                 <div class="row">
                     <div class="form-group col mb-3-5">
                         <textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control text-3 h-auto py-3-5" name="message" placeholder="Message" required></textarea>
                     </div>
+                    @error('message')
+                    <small class="text-danger">{{ $errors->first('message') }}</small>
+                    @enderror
                 </div>
                 <div class="row">
                     <div class="form-group col">

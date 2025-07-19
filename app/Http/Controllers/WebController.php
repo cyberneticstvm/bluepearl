@@ -30,6 +30,16 @@ class WebController extends Controller
         return view('contact', compact('title', 'description', 'keywords'));
     }
 
+    function contactSubmit(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'contact_number' => 'required|numeric',
+            'message' => 'required',
+        ]);
+    }
+
     function products()
     {
         $title = "Blue Pearl General Trading";
