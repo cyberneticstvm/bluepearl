@@ -102,7 +102,7 @@
         <div class="col-lg-12 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1800">
             <h2 class="font-weight-bold text-color-dark text-6 mb-3">Corporate Headquarters</h2>
             <div id="googlemaps" class="google-map m-0" style="min-height: 450px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3599.5253466244812!2d55.7431376!3d25.5541831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f9177b544521%3A0x8ce36e1acfdaf26!2sUmm%20Al%20Quwain%20Free%20Trade%20Zone%20Authority!5e0!3m2!1sen!2sin!4v1752894294354!5m2!1sen!2sin" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3599.5253466244812!2d55.7431376!3d25.5541831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f9177b544521%3A0x8ce36e1acfdaf26!2sUmm%20Al%20Quwain%20Free%20Trade%20Zone%20Authority!5e0!3m2!1sen!2sin!4v1752894294354!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
