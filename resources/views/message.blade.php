@@ -23,13 +23,13 @@
 <div class="container pt-4 pb-5 pb-sm-0 my-5">
     <div class="row">
         @session('error')
-        <div class="text-danger">
-            <h2>{{ $value }}</h2>
+        <div class="col">
+            <h2 class="text-danger">{{ $value }}</h2>
         </div>
         @endsession
         @session('success')
-        <div class="text-success">
-            <h2>{{ $value }}</h2>
+        <div class="col">
+            <h2 class="text-success">{{ $value }}</h2>
         </div>
         @endsession
     </div>
