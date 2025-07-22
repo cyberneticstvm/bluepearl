@@ -22,7 +22,7 @@
 </section>
 <div class="container pt-4 pb-5 pb-sm-0 my-5">
     <div class="row pb-2 mb-5">
-        <h5>Under Construction</h5>
+        <h5>Coming Soon..</h5>
     </div>
 </div>
 @endsection

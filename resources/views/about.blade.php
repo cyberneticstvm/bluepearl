@@ -64,16 +64,6 @@
                                 <strong class="d-block text-color-dark text-4 mb-4">Foundation</strong>
                                 <p class="font-weight-light text-color-dark text-3-5 px-sm-5 mb-0"></p>
                             </div>
-                            <div class="text-center">
-                                <strong class="d-block text-color-primary text-7 line-height-1">2012</strong>
-                                <strong class="d-block text-color-dark text-4 mb-4">50+ Employers</strong>
-                                <p class="font-weight-light text-color-dark text-3-5 px-sm-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. Quisque eu neque augue. Aliquam egestas nunc at efficitur faucibus. </p>
-                            </div>
-                            <div class="text-center">
-                                <strong class="d-block text-color-primary text-7 line-height-1">2015</strong>
-                                <strong class="d-block text-color-dark text-4 mb-4">New Headquarter</strong>
-                                <p class="font-weight-light text-color-dark text-3-5 px-sm-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. Quisque eu neque augue. Aliquam egestas nunc at efficitur faucibus. </p>
-                            </div>
                         </div>
                     </div>
                 </div>

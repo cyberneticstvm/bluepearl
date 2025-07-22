@@ -1,7 +1,5 @@
 @extends("base")
 @section("content")
-@extends("base")
-@section("content")
 <section class="section section-height-3 border-0 m-0">
     <div class="container position-relative pt-5 pb-5-5 mt-5 mb-5">
         <div class="row justify-content-end pt-1 mt-lg-5">
@@ -52,5 +50,4 @@
         </div>
     </div>
 </div>
-@endsection
 @endsection
