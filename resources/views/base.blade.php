@@ -58,7 +58,7 @@
                     <div class="header-row">
                         <div class="header-column">
                             <div class="header-row">
-                                <h2 class="m-0">BLUE PEARL GENERAL TRADING</h2>
+                                <img src="{{ asset('/assets/img/logos/logo.png') }}" alt="Blue Pearl Logo" />
                             </div>
                         </div>
                         <div class="header-column justify-content-end">
