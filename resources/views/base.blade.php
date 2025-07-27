@@ -56,7 +56,7 @@
             <div class="header-body border-0">
                 <div class="header-container container">
                     <div class="header-row">
-                        <div class="header-column">
+                        <div class="header-column" style="width: 20%;">
                             <div class="header-row">
                                 <img src="{{ asset('/assets/img/logos/logo.png') }}" alt="Blue Pearl Logo" width="15%" />
                             </div>
