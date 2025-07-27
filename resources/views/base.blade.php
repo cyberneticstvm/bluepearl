@@ -58,7 +58,7 @@
                     <div class="header-row">
                         <div class="header-column" style="width: 20%;">
                             <div class="header-row">
-                                <img src="{{ asset('/assets/img/logos/logo.png') }}" alt="Blue Pearl Logo" width="75%" />
+                                <img src="{{ asset('/assets/img/logos/logo.png') }}" alt="Blue Pearl Logo" width="65%" />
                             </div>
                         </div>
                         <div class="header-column justify-content-end">
