@@ -46,7 +46,7 @@
                         <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
                         <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Class Approved Marine Grade-A Plates</h3>
                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
-                            View More
+                            <a href="{{ route('products') }}">View More</a>
                             <div class="animated-icon animated fadeIn svg-fill-color-primary ms-2"><!--?xml version="1.0" ?-->
                                 <svg version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_241754496615734" data-filename="arrow-right.svg" width="27" height="27">
                                     <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24  "></polygon>
