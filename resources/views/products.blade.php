@@ -33,12 +33,12 @@
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
                         <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <!--<span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <span class="position-relative z-index-2">
+                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
+                                <!--<span class="position-relative z-index-2">
                                     18
                                     <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>
-                            </span>-->
+                                </span>-->
+                            </span>
                         </div>
                         <img src="{{ asset('/storage/items/1.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
