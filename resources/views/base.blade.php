@@ -74,11 +74,11 @@
         <footer id="footer" class="overflow-hidden border-0 m-0" style="background-image: url({{ asset('/assets/img/demos/construction/backgrounds/background-2.jpg') }}); background-repeat: no-repeat; background-position: center bottom;">
             <div class="container pt-5">
                 <div class="row pt-4 mb-5 gy-4">
-                    <div class="col-lg-2 align-self-center">
+                    <!--<div class="col-lg-2 align-self-center">
                         <a href="demo-construction.html">
                             <img alt="Blue Pearl" class="img-fluid logo" src="{{ asset('/assets/img/logos/logo.png') }}">
                         </a>
-                    </div>
+                    </div>-->
                     <div class="col-lg-4 offset-lg-1">
                         <h4 class="text-color-dark font-weight-bold mb-4-5">Navigation</h4>
                         <ul class="list list-unstyled columns-lg-2">
