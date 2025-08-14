@@ -208,7 +208,7 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <img src="{{ asset('/storage/items/14.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                        <img src="{{ asset('/storage/items/11.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
                         <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
@@ -224,7 +224,7 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <img src="{{ asset('/storage/items/8.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                        <img src="{{ asset('/storage/items/12.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
                         <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
