@@ -300,6 +300,70 @@
                 </div>
             </a>
         </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/19.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Pipes</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/20.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Pipes</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/21.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Hollow Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/22.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Hollow Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 <div class="position-relative pb-5 d-none d-xl-block">
