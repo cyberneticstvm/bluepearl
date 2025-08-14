@@ -228,7 +228,7 @@
                     </div>
                     <div class="card-body py-4 px-0">
                         <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
-                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">H-Beams, I-Beams</h3>
                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                             <a href="{{ route('products') }}">View More</a>
                         </span>
