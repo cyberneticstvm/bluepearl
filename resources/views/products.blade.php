@@ -32,14 +32,6 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/1.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
@@ -56,14 +48,6 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/2.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
@@ -80,14 +64,6 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/3.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
@@ -104,14 +80,6 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/4.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
@@ -128,14 +96,6 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/5.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
@@ -152,19 +112,107 @@
             <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
                 <div class="card border-0">
                     <div class="card-img-top position-relative overlay">
-                        <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                            <span class="text-center bg-primary text-color-light font-weight-semibold text-5-5 line-height-2 px-3 py-2">
-                                <!--<span class="position-relative z-index-2">
-                                    18
-                                    <span class="d-block custom-font-size-1 positive-ls-2 px-1">FEB</span>
-                                </span>-->
-                            </span>
-                        </div>
                         <img src="{{ asset('/storage/items/6.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
                     </div>
                     <div class="card-body py-4 px-0">
                         <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
                         <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Flat Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/8.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/9.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/10.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/13.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Round Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/14.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Round Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/12.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">H-Beams, I-Beams</h3>
                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                             <a href="{{ route('products') }}">View More</a>
                         </span>
