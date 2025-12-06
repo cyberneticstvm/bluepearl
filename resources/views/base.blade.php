@@ -134,7 +134,7 @@
                             <li class="list-inline-item d-inline-flex align-items-center">
                                 <img width="23" height="23" src="{{ asset('/assets/img/demos/construction/icons/phone.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark'}" />
                                 <a href="tel:+971569956740" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5 ms-2">+971 569956740</a>
-                                <a href="tel:+971549905060" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5 ms-2">+971 549905060</a>
+                                | <a href="tel:+971549905060" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5 ms-2">+971 549905060</a>
                             </li>
                             <li class="list-inline-item d-inline-flex align-items-center ms-0">
                                 <img width="23" height="23" src="{{ asset('/assets/img/demos/construction/icons/email.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark'}" />
