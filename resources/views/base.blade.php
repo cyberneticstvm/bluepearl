@@ -14,8 +14,8 @@
     <meta name="author" content="cybernetics.me">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('/assets/img/favicon.ico') }}" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="{{ asset('/assets/img/apple-touch-icon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/assets/img/favicon.png') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ asset('/assets/img/favicon.png') }}">
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -56,9 +56,9 @@
             <div class="header-body border-0">
                 <div class="header-container container">
                     <div class="header-row">
-                        <div class="header-column">
+                        <div class="header-column" style="width: 20%;">
                             <div class="header-row">
-                                <h2 class="m-0">BLUE PEARL GENERAL TRADING</h2>
+                                <img src="{{ asset('/assets/img/logos/logo.png') }}" alt="Blue Pearl Logo" width="60%" />
                             </div>
                         </div>
                         <div class="header-column justify-content-end">
@@ -74,11 +74,11 @@
         <footer id="footer" class="overflow-hidden border-0 m-0" style="background-image: url({{ asset('/assets/img/demos/construction/backgrounds/background-2.jpg') }}); background-repeat: no-repeat; background-position: center bottom;">
             <div class="container pt-5">
                 <div class="row pt-4 mb-5 gy-4">
-                    <div class="col-lg-2 align-self-center">
+                    <!--<div class="col-lg-2 align-self-center">
                         <a href="demo-construction.html">
-                            <img alt="Blue Pearl" class="img-fluid logo" src="{{ asset('/assets/img/demos/construction/logo-transparent.png') }}">
+                            <img alt="Blue Pearl" class="img-fluid logo" src="{{ asset('/assets/img/logos/logo.png') }}">
                         </a>
-                    </div>
+                    </div>-->
                     <div class="col-lg-4 offset-lg-1">
                         <h4 class="text-color-dark font-weight-bold mb-4-5">Navigation</h4>
                         <ul class="list list-unstyled columns-lg-2">

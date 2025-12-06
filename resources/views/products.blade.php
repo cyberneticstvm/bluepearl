@@ -20,9 +20,357 @@
         </div>
     </div>
 </section>
-<div class="container pt-4 pb-5 pb-sm-0 my-5">
-    <div class="row pb-2 mb-5">
-        <h5>Coming Soon..</h5>
+<div class="container mt-5 pt-4 mb-5 mb-lg-4 mb-xl-0 pb-3 pb-xl-0">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-color-dark font-weight-bold text-7 line-height-1 mb-3-5 appear-animation animated fadeInUpShorterPlus appear-animation-visible" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">Products</h2>
+            <p class="text-4 font-weight-light mb-5-5 appear-animation animated fadeInUpShorterPlus appear-animation-visible" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="400" style="animation-delay: 400ms;"></p>
+        </div>
+    </div>
+    <div class="row row-gutter-sm justify-content-center mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="animation-delay: 600ms;">
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/1.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Class Approved Marine Grade-A Plates</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/2.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Class Approved Marine Grade-A Plates</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/3.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Angles</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/4.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Angles</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/5.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Flat Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/6.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Flat Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/8.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/9.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/10.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Chequered Plate</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/13.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Round Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/14.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">MS Round Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/11.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">H-Beams, I-Beams</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/12.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">H-Beams, I-Beams</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/15.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">GI Gratings</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/16.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">GI Gratings</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/17.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">FRP Gratings</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/18.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">FRP Gratings</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/19.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Pipes</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/20.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Pipes</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/21.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Hollow Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <a href="#" class="text-decoration-none" data-cursor-effect-hover="plus">
+                <div class="card border-0">
+                    <div class="card-img-top position-relative overlay">
+                        <img src="{{ asset('/storage/items/22.jpeg') }}" class="img-fluid" alt="Lorem Ipsum Dolor">
+                    </div>
+                    <div class="card-body py-4 px-0">
+                        <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
+                        <h3 class="text-transform-none font-weight-bold text-5 text-color-hover-primary mb-2">Hollow Bars</h3>
+                        <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                            <a href="{{ route('products') }}">View More</a>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="position-relative pb-5 d-none d-xl-block">
+    <div class="position-absolute transform3dy-n50 left-0">
+        <div class="appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1500" data-appear-animation-duration="1500ms">
+            <div class="custom-square-1 bg-primary mt-0 mb-5"></div>
+        </div>
     </div>
 </div>
 @endsection
