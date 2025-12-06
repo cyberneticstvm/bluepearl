@@ -27,6 +27,10 @@
             <div class="row">
                 <div class="col-auto">
                     <h3 class="d-block text-color-grey positive-ls-3 font-weight-medium text-2 mb-1">CALL US</h3>
+                    <a href="tel:+971569956740" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5">
+                        <img width="23" height="23" src="{{ asset('assets/img/demos/construction/icons/phone.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark me-2'}" />
+                        +971 569956740
+                    </a> |
                     <a href="tel:+971549905060" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-bold text-3-5">
                         <img width="23" height="23" src="{{ asset('assets/img/demos/construction/icons/phone.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark me-2'}" />
                         +971 549905060
